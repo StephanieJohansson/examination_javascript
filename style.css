@@ -1,0 +1,67 @@
+
+/**/
+body {
+    font-family: Times;
+    font-stretch: expanded;
+    font-style:oblique;
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 20px;
+}
+
+/*vill ha en snygg box/container runt hela koden/appen*/
+.container { 
+    max-width: 600px;
+    margin: auto;
+    background: rgb(191, 218, 195);
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex; /* Använd flexbox för att placera elementen i rad */
+    align-items: center; 
+}
+
+input[type="text"] {
+    flex-grow: 1; /*Så att input inte får en särskild bredd utan anpassar utrymme*/
+    padding: 10px;
+    margin-right: 10px; 
+}
+
+button {
+    padding: 10px;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; /*Gör knappen rund*/
+    background-color: #8ea88f; 
+    color: white; 
+    border: none; 
+    font-size: 20px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+ul {
+    font-family: arial;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
